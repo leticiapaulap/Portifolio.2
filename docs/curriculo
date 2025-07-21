@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Letícia de Paula Pereira</title>
+    <style>
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            line-height: 1.5;
+            color: #000000;
+            background-color: #FFFFFF;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+        h1 {
+            color: #000000;
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .header-info {
+            color: #333333;
+            font-size: 16px;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #000000;
+            padding-bottom: 15px;
+        }
+        h2 {
+            color: #000000;
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #EEEEEE;
+            padding-bottom: 5px;
+        }
+        .job {
+            margin-bottom: 20px;
+        }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        .company {
+            font-weight: 600;
+            color: #000000;
+        }
+        .period {
+            font-style: italic;
+            color: #555555;
+        }
+        .position {
+            font-weight: 500;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        li {
+            margin-bottom: 8px;
+            color: #333333;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .skill {
+            background-color: #F5F5F5;
+            padding: 6px 12px;
+            border-radius: 15px;
+            font-size: 14px;
+            color: #000000;
+        }
+        .contact-item {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .contact-icon {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>LETÍCIA DE PAULA PEREIRA</h1>
+    
+    <div class="header-info">
+        <span class="contact-item">
+            <span class="contact-icon">📱</span> (61) 99688-3472
+        </span>
+        <span class="contact-item">
+            <span class="contact-icon">✉️</span> ielekapaula@hotmail.com
+        </span>
+        <span class="contact-item">
+            <span class="contact-icon">📍</span> Brasília/DF
+        </span>
+    </div>
+    
+    <div>
+        <h2>Objetivo</h2>
+        <p>Estágio ou posição júnior na área de Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento front-end e suporte técnico.</p>
+    </div>
+    
+    <div>
+        <h2>Formação Acadêmica</h2>
+        <div class="job">
+            <div class="job-header">
+                <span class="company">Centro Universitário UDF – Brasília/DF</span>
+            </div>
+            <p>Curso: Análise e Desenvolvimento de Sistemas – 2º Semestre | Início: 2024</p>
+        </div>
+    </div>
+    
+    <div>
+        <h2>Experiência Profissional</h2>
+        
+        <div class="job">
+            <div class="job-header">
+                <span class="company">Age Fibra</span>
+                <span class="period">2024 - 2024</span>
+            </div>
+            <div class="position">Assistente de Tecnologia</div>
+            <ul>
+                <li>Monitoramento contínuo de links dedicados, garantindo alta disponibilidade de redes para clientes empresariais</li>
+                <li>Uso de ferramentas de análise de rede para identificar falhas</li>
+                <li>Suporte técnico, atendendo chamados de clientes corporativos com problemas relacionados a conectividade</li>
+                <li>Responsável por orientar clientes na resolução de questões técnicas, personalizado e de qualidade</li>
+                <li>Configuração de Link Dedicado em Switches Huawei e Datacom</li>
+                <li>Manutenção de links dedicados em equipamentos Huawei e Datacon</li>
+                <li>Experiência em ajustes de VLANs, roteamento e configuração</li>
+                <li>Suporte de nível 2 para a equipe de campo e clientes</li>
+            </ul>
+        </div>
+        
+        <div class="job">
+            <div class="job-header">
+                <span class="company">JS Serviços</span>
+                <span class="period">2024 - 2025</span>
+            </div>
+            <div class="position">Analista</div>
+            <ul>
+                <li>Referência de monitoramento de geolocalização (AVL)</li>
+            </ul>
+        </div>
+        
+        <div class="job">
+            <div class="job-header">
+                <span class="company">Senappen</span>
+                <span class="period">2025 - Atual</span>
+            </div>
+            <div class="position">Estagiária</div>
+            <ul>
+                <li>Estagiária na área de análise e desenvolvimento de sistemas</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div>
+        <h2>Habilidades</h2>
+        <div class="skills-container">
+            <span class="skill">Estrutura de Dados</span>
+            <span class="skill">HTML e CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Banco de Dados</span>
+            <span class="skill">Visual Studio Code</span>
+            <span class="skill">Pacote Office</span>
+            <span class="skill">Monitoramento de Redes</span>
+            <span class="skill">Suporte Técnico</span>
+            <span class="skill">Sistemas Corporativos</span>
+        </div>
+    </div>
+</body>
+</html>
