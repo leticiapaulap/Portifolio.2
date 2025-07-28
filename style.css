@@ -1351,6 +1351,38 @@ body {
     }
 }
 
+
+.botao-curriculo {
+  display: inline-block;
+  padding: 12px 24px;
+  text-align: center;
+  background: linear-gradient(135deg, #ffffff33, #ffffff10); /* leve brilho */
+  backdrop-filter: blur(10px); /* efeito glass */
+  color: var(--foreground);
+  border: 1px solid hsla(230, 15%, 20%, 0.5);
+  border-radius: 8px;
+  display: block;
+  width: fit-content;         /* ou ex: 150px */
+  margin: 20px auto;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: sans-serif; 
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.botao-curriculo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.botao-curriculo:active {
+  transform: scale(0.97);
+}
+
+
+
 @media (max-width: 767px) {
     .nav-desktop {
         display: none;
